@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2010 Lexus HS 250h — Owner Dossier &amp; Action Plan</title>
+<meta name="description" content="Service dossier, verified recall status, diagnostic trouble codes, hybrid battery health, and repair action plan for a 2010 Lexus HS 250h (VIN JTHBB1BA2A2016171).">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --ink:#16191d; --muted:#5c6672; --line:#e2e6ea;
+  --accent:#1f6feb; --ok:#12805c; --okbg:#e4f5ee; --warn:#9a6400; --warnbg:#fdf2dc;
+  --bad:#b3261e; --badbg:#fdeceb; --info:#1c5876; --infobg:#e5f1f7;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1216;--card:#171b21;--ink:#e9edf2;--muted:#9aa5b1;--line:#282e36;
+    --accent:#5b9bff;--ok:#43c79a;--okbg:#11291f;--warn:#e0a33a;--warnbg:#2a2113;
+    --bad:#ff7b72;--badbg:#2c1615;--info:#6fbde3;--infobg:#11242d;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-text-size-adjust:100%}
+.wrap{max-width:940px;margin:0 auto;padding:0 18px 90px}
+header.hero{background:linear-gradient(135deg,#1a1f26,#2b3542);color:#fff;padding:34px 18px 28px;border-bottom:3px solid var(--accent)}
+.hero .wrap{padding-bottom:0}
+.hero h1{margin:0 0 6px;font-size:1.7rem;line-height:1.25}
+.hero .vin{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92rem;
+  background:rgba(255,255,255,.1);padding:5px 10px;border-radius:6px;display:inline-block;margin:8px 0;letter-spacing:.03em}
+.hero .meta{color:#c3ccd6;font-size:.93rem;margin:6px 0 0}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.badge{font-size:.78rem;font-weight:600;padding:5px 11px;border-radius:999px;background:rgba(255,255,255,.12);color:#fff;letter-spacing:.02em}
+.badge.ok{background:#12805c}.badge.warn{background:#9a6400}.badge.bad{background:#b3261e}
+nav{position:sticky;top:0;z-index:50;background:var(--card);border-bottom:1px solid var(--line);
+  overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav ul{display:flex;gap:2px;list-style:none;margin:0;padding:0 10px;max-width:940px;margin:0 auto}
+nav a{display:block;padding:13px 12px;color:var(--muted);text-decoration:none;font-size:.86rem;
+  font-weight:600;white-space:nowrap;border-bottom:3px solid transparent}
+nav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+section{margin-top:44px;scroll-margin-top:70px}
+h2{font-size:1.28rem;margin:0 0 4px;display:flex;align-items:center;gap:9px}
+h2 .num{background:var(--accent);color:#fff;width:27px;height:27px;border-radius:7px;
+  display:inline-flex;align-items:center;justify-content:center;font-size:.85rem;flex:none}
+.sub{color:var(--muted);font-size:.9rem;margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:14px}
+.card.tight{padding:0;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.73rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:rgba(0,0,0,.02)}
+@media(prefers-color-scheme:dark){th{background:rgba(255,255,255,.03)}}
+tr:last-child td{border-bottom:0}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:5px;white-space:nowrap}
+.t-ok{background:var(--okbg);color:var(--ok)}
+.t-warn{background:var(--warnbg);color:var(--warn)}
+.t-bad{background:var(--badbg);color:var(--bad)}
+.t-info{background:var(--infobg);color:var(--info)}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+  background:rgba(127,127,127,.13);padding:2px 6px;border-radius:4px}
+.pill{display:inline-block;font-size:.75rem;font-weight:700;padding:2px 7px;border-radius:4px;
+  background:var(--infobg);color:var(--info);margin-right:4px}
+ul.clean{margin:0;padding-left:20px}ul.clean li{margin:7px 0}
+.checklist{list-style:none;margin:0;padding:0}
+.checklist li{display:flex;gap:12px;align-items:flex-start;padding:13px 14px;border:1px solid var(--line);
+  border-radius:10px;margin-bottom:9px;background:var(--card);transition:.15s}
+.checklist li.done{opacity:.5}
+.checklist li.done .task{text-decoration:line-through}
+.checklist input{margin-top:4px;width:19px;height:19px;flex:none;accent-color:var(--accent);cursor:pointer}
+.task{flex:1;cursor:pointer}
+.task b{display:block;margin-bottom:2px}
+.task small{color:var(--muted);display:block;line-height:1.5}
+.prio{font-size:.7rem;font-weight:800;padding:3px 7px;border-radius:4px;letter-spacing:.03em;flex:none;align-self:flex-start;margin-top:2px}
+.p-now{background:var(--badbg);color:var(--bad)}
+.p-soon{background:var(--warnbg);color:var(--warn)}
+.p-later{background:var(--infobg);color:var(--info)}
+.cost{font-variant-numeric:tabular-nums;font-weight:700;color:var(--muted);font-size:.8rem;flex:none;align-self:center}
+.note{border-left:4px solid var(--accent);background:var(--infobg);padding:13px 16px;border-radius:0 9px 9px 0;font-size:.9rem;margin:14px 0}
+.note.warn{border-color:var(--warn);background:var(--warnbg)}
+.note.bad{border-color:var(--bad);background:var(--badbg)}
+.note b{display:block;margin-bottom:4px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:11px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:14px}
+.stat .k{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+.stat .v{font-size:1.22rem;font-weight:800;margin-top:3px;font-variant-numeric:tabular-nums}
+.stat .v.ok{color:var(--ok)}.stat .v.warn{color:var(--warn)}.stat .v.bad{color:var(--bad)}
+.bar{height:9px;background:rgba(127,127,127,.18);border-radius:5px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;border-radius:5px}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:11px}
+.lnk{display:block;background:var(--card);border:1px solid var(--line);border-radius:11px;
+  padding:14px 16px;text-decoration:none;color:inherit;transition:.15s}
+.lnk:hover{border-color:var(--accent);transform:translateY(-1px)}
+.lnk b{display:block;margin-bottom:3px;font-size:.94rem}
+.lnk small{color:var(--muted);display:block;line-height:1.45}
+.lnk .arrow{color:var(--accent);font-weight:700}
+.total-row td{font-weight:800;font-size:1rem;background:rgba(31,111,235,.07)}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 18px;border-radius:8px;
+  text-decoration:none;font-weight:600;font-size:.9rem;border:0;cursor:pointer;font-family:inherit}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.foot{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:.83rem;text-align:center}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:.9rem}
+.kv dt{color:var(--muted);font-weight:600}
+.kv dd{margin:0}
+.strong3{font-weight:700}
+@media print{
+  nav,.btn,.checklist input{display:none!important}
+  body{background:#fff}
+  .card,.stat,.lnk{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>2010 Lexus HS 250h — Owner Dossier</h1>
+    <span class="vin">VIN JTHBB1BA2A2016171</span>
+    <p class="meta">Purchased <strong>$2,300</strong> · 192,036 mi · Washington Rebuilt Title</p>
+    <div class="badges">
+      <span class="badge ok">✓ All Recalls Complete</span>
+      <span class="badge warn">⚠ Hybrid Battery Degraded</span>
+      <span class="badge bad">⛔ Passenger Airbag Disabled</span>
+      <span class="badge">🔧 5 Active DTCs</span>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#start">Start Here</a></li>
+    <li><a href="#spec">Specs</a></li>
+    <li><a href="#recalls">Recalls</a></li>
+    <li><a href="#codes">Codes</a></li>
+    <li><a href="#battery">Battery</a></li>
+    <li><a href="#plan">Action Plan</a></li>
+    <li><a href="#cost">Costs</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#legal">Legal</a></li>
+  </ul>
+</nav>
+
+<div class="wrap">
+
+<section id="start">
+  <h2><span class="num">1</span>Start Here — This Week</h2>
+  <p class="sub">Two free tests decide whether this was a $2,300 win or a lesson. Do them first.</p>
+
+  <div class="note bad">
+    <b>⛔ Test 1 — Brake Actuator Leak-Down (5 min, free)</b>
+    Cold start. Idle in Park. Foot off the brake. Time the pump cycles for 5 minutes.<br>
+    <strong>Normal:</strong> one cycle every several minutes. &nbsp;
+    <strong>Failing:</strong> a cycle every 5–15 seconds.<br>
+    <span style="opacity:.85">No <code>C1391</code> code does <strong>not</strong> clear it — the code appears late. This is the single biggest cost fork on the car.</span>
+  </div>
+
+  <div class="note warn">
+    <b>⚠ Test 2 — Oil Consumption Baseline (free)</b>
+    Lexus documented this engine <strong>2.5 qt low on a 4.5 qt fill</strong> at 97,256 mi. The 2AZ-FXE ring-drain defect is proven on <em>this specific car</em>.<br>
+    Check the dipstick every 1,000–2,000 miles. Drain oil every 3,000. Treat oil as a consumable, not maintenance.
+  </div>
+
+  <div class="checklist" id="cl-first">
+    <label><li><input type="checkbox" data-k="brake"><span class="task"><b>Run the 5-minute brake pump cycle test</b><small>Foot off brake, Park, idle. Count cycles. Every 5–15s = failing accumulator = $600–4,200.</small></span><span class="prio p-now">NOW</span><span class="cost">Free</span></li></label>
+    <label><li><input type="checkbox" data-k="oil"><span class="task"><b>Check oil level and condition</b><small>Level ground, cold engine. Log the level. Look for soot/metal.</small></span><span class="prio p-now">NOW</span><span class="cost">Free</span></li></label>
+    <label><li><input type="checkbox" data-k="front"><span class="task"><b>Inspect front-end damage</b><small>Radiator core support, upper tie bar, hood alignment. ~24k mi driven since the unrepaired snow impact.</small></span><span class="prio p-now">NOW</span><span class="cost">Free</span></li></label>
+    <label><li><input type="checkbox" data-k="12v"><span class="task"><b>Install a new 12V AGM battery</b><small>Highest-leverage spend. Likely clears C2300, C2309, C1541, B1568 all at once. Correct group + vent tube.</small></span><span class="prio p-soon">THIS WK</span><span class="cost">$180–350</span></li></label>
+    <label><li><input type="checkbox" data-k="fuse"><span class="task"><b>Pull the 30A P CON MAIN fuse for 60s</b><small>Ignition OFF, engine-room junction block. Clears the permanently latched C2300 / C2309. Free.</small></span><span class="prio p-soon">THIS WK</span><span class="cost">Free</span></li></label>
+    <label><li><input type="checkbox" data-k="zpc"><span class="task"><b>Techstream Zero Point Calibration</b><small>Level ground, empty seat, then verify with ~66 lb weight. Clears B1650, re-enables passenger airbag.</small></span><span class="prio p-soon">THIS WK</span><span class="cost">$200</span></li></label>
+    <label><li><input type="checkbox" data-k="title"><span class="task"><b>Transfer title — 15 calendar days</b><small>King County subagency. Confirm his name is printed on the physical title first.</small></span><span class="prio p-now">15 DAYS</span><span class="cost">—</span></li></label>
+  </div>
+</section>
+
+<section id="spec">
+  <h2><span class="num">2</span>Vehicle Profile</h2>
+  <p class="sub">Toyota New MC platform · Toyota Hybrid System II</p>
+  <div class="card">
+    <dl class="kv">
+      <dt>Engine</dt><dd>2.4L DOHC Atkinson I4 — <span class="strong3">2AZ-FXE</span>, 147 hp @ 6,000 · 138 lb-ft @ 4,400</dd>
+      <dt>Transaxle</dt><dd>P311 eCVT · MG2 141 hp / 199 lb-ft · System 187 hp</dd>
+      <dt>Traction Battery</dt><dd>244.8V nominal NiMH · 34 modules · 17 monitored blocks · Primearth EV Energy</dd>
+      <dt>Title</dt><dd>Washington Rebuilt · Gray (factory Tungsten Pearl)</dd>
+      <dt>Mileage</dt><dd>188,840 (listing) → <span class="strong3">192,036</span> (Carfax)</dd>
+      <dt>Odometer Net</dt><dd>83,554 mi added since the 2023 salvage auction</dd>
+    </dl>
+  </div>
+  <div class="note">
+    <b>⚠ Mileage discrepancy</b>
+    The listing read 188,840 but the live Carfax showed 192,036 — a ~3,200 mi gap. Most likely a stale listing photo, but confirm the odometer reading on the car matches Carfax, not the ad.
+  </div>
+</section>
+
+<section id="recalls">
+  <h2><span class="num">3</span>Recall Status — NHTSA Verified</h2>
+  <p class="sub">Every campaign number below was confirmed against the NHTSA primary recall API.</p>
+  <div class="card tight">
+    <table>
+      <thead><tr><th>Campaign</th><th>Component</th><th>Remedy</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td><code>17V619</code><br><span class="pill">HLE</span></td><td>Hybrid transaxle internal short → loss of drive</td><td>Complete eCVT assembly replacement</td><td><span class="tag t-ok">✓ Done</span><br><small>02/13/2018 · 91,173 mi</small></td></tr>
+        <tr><td><code>16V596</code><br><span class="pill">GLK</span></td><td>Rear suspension arms — thread rust &amp; separation</td><td>Replace both arms + epoxy encapsulate locknuts</td><td><span class="tag t-ok">✓ Done</span><br><small>Supersedes 13V383</small></td></tr>
+        <tr><td><code>13V383</code></td><td>Rear suspension arms (earlier revision)</td><td>Inspect + epoxy; escalated by 16V596</td><td><span class="tag t-ok">✓ Done</span><br><small>Supersedes 12V373</small></td></tr>
+        <tr><td><code>12V373</code></td><td>Rear tie-rod locknut looseness</td><td>Inspect and replace suspect rods</td><td><span class="tag t-ok">✓ Done</span></td></tr>
+        <tr><td><code>10V039</code><br><span class="pill">ALA</span></td><td>ABS inconsistent pedal feel on slick surfaces</td><td>Reflash ABS control unit programming</td><td><span class="tag t-ok">✓ Done</span></td></tr>
+        <tr><td><span class="pill">ALD</span></td><td>Fuel filler neck shield (crash puncture risk)</td><td>Shield installed</td><td><span class="tag t-ok">✓ Done</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">
+    <b>This is the strongest part of the car.</b>
+    All factory safety recalls — including the platform's primary killer, the 17V619 transaxle short — are documented complete by Lexus of Tacoma at Fife. The replacement transaxle now has ~100k miles on it. That is genuinely uncommon on a rebuilt-title example.
+  </div>
+</section>
+
+<section id="codes">
+  <h2><span class="num">4</span>Active Diagnostic Trouble Codes</h2>
+  <p class="sub">Most of these point to one root cause: a sagging 12V auxiliary battery.</p>
+  <div class="card tight">
+    <table>
+      <thead><tr><th>Code</th><th>System</th><th>What it means</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td><code>B1650</code></td><td><span class="tag t-bad">SRS</span></td><td><strong>Occupant Classification fault — passenger airbag is DISABLED.</strong> Don't carry a front-right passenger until resolved.</td><td>Zero Point Calibration + 66 lb weight test</td></tr>
+        <tr><td><code>C2300</code></td><td><span class="tag t-warn">Trans</span></td><td>Actuator system malfunction — shift/parking pawl motor failed its boot-up resolver sweep</td><td>Pull P CON MAIN fuse (latched — won't clear by scan)</td></tr>
+        <tr><td><code>C2309</code></td><td><span class="tag t-warn">Trans</span></td><td>Open in B+ circuit — supply to the Transmission Control ECU dropped</td><td>Pull P CON MAIN fuse + new 12V</td></tr>
+        <tr><td><code>C2121–C2124</code></td><td><span class="tag t-info">TPMS</span></td><td>No RF from any of the 4 wheel sensors — original 2010 lithium cells exhausted</td><td>Replace 4 sensors + register IDs</td></tr>
+        <tr><td><code>B1568</code></td><td><span class="tag t-info">Body</span></td><td>AVC-LAN clock/display communication dropout</td><td>Reseat upper cluster connector + clear</td></tr>
+        <tr><td><code>C1541</code></td><td><span class="tag t-info">EPS</span> <em>historical</em></td><td>Wheel-speed packets dropped ≥3s — EPS fell back to a 62.5 mph assist map</td><td>Clear; almost certainly a 12V sag artifact</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">
+    <b>Codes that are NOT present — and why that matters</b>
+    No <code>C1391</code>/<code>C1256</code> (brake actuator). No <code>P0A80</code> (replace hybrid battery). Their absence is <em>encouraging but not conclusive</em> — codes clear on their own after a battery disconnect and only reappear once drive cycles accumulate. Run the physical brake test regardless.
+  </div>
+</section>
+
+<section id="battery">
+  <h2><span class="num">5</span>Hybrid Battery Health</h2>
+  <p class="sub">Original 2010 pack · 192k miles · Dr. Prius / OBDLink MX+ telemetry capture</p>
+
+  <div class="stats" style="margin-bottom:14px">
+    <div class="stat"><div class="k">Peak Block ΔV</div><div class="v warn">0.49 V</div><div class="bar"><i style="width:82%;background:var(--warn)"></i></div><small style="color:var(--muted)">at 4.376s — 15.02 vs 14.53</small></div>
+    <div class="stat"><div class="k">Resting ΔV</div><div class="v warn">0.22–0.26 V</div><div class="bar"><i style="width:44%;background:var(--warn)"></i></div><small style="color:var(--muted)">healthy ≈ ≤0.12–0.15 V</small></div>
+    <div class="stat"><div class="k">Internal Resistance</div><div class="v ok">23–24 mΩ</div><div class="bar"><i style="width:52%;background:var(--ok)"></i></div><small style="color:var(--muted)">balanced — rules out busbar corrosion</small></div>
+    <div class="stat"><div class="k">Thermal Envelope</div><div class="v ok">73–77 °F</div><div class="bar"><i style="width:30%;background:var(--ok)"></i></div><small style="color:var(--muted)">normal ambient</small></div>
+  </div>
+
+  <div class="card tight">
+    <table>
+      <thead><tr><th>Block</th><th>Avg V</th><th>Under Load</th><th>Assessment</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>14.77</td><td>—</td><td><span class="tag t-ok">Strong</span> edge-cooled</td></tr>
+        <tr><td><strong>3</strong></td><td>14.57</td><td>→ 14.41</td><td><span class="tag t-bad">Weakest</span> lowest in 79.7% of samples</td></tr>
+        <tr><td><strong>7</strong></td><td>14.58</td><td>→ 14.41</td><td><span class="tag t-bad">Failing</span> hits pack floor</td></tr>
+        <tr><td>8</td><td>14.63</td><td>→ 14.41</td><td><span class="tag t-warn">Below mean</span> pack core heat</td></tr>
+        <tr><td>11</td><td>14.62</td><td>peak 15.24</td><td><span class="tag t-warn">Below mean</span> poor charge acceptance</td></tr>
+        <tr><td>17</td><td>14.83</td><td>15.53</td><td><span class="tag t-ok">Strongest</span> highest in 94.9% of samples</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note warn">
+    <b>Dossier inconsistency to be aware of</b>
+    One version of your dossier flags only <strong>Blocks 3 &amp; 7</strong>; the other flags <strong>3, 7, 8 &amp; 11</strong>. The raw telemetry supports all four being below the 14.681 V pack mean. If you recondition, plan for <strong>four</strong> matched modules, not two.
+  </div>
+
+  <div class="note">
+    <b>On the "0.30 V / 0.50 V P0A80" thresholds</b>
+    These are Dr. Prius community heuristics, not published Toyota service limits. Useful as a rule of thumb, not gospel. The honest read: degraded 16-year-old pack that has <strong>not</strong> thrown <code>P0A80</code> yet. Budget <strong>$1,600–2,000</strong> and expect to spend it within a year. Re-run a log after the 12V is fresh.
+  </div>
+</section>
+
+<section id="plan">
+  <h2><span class="num">6</span>Full Action Plan</h2>
+  <p class="sub">Checkboxes save to this device automatically.</p>
+
+  <p class="sub" style="margin-top:22px;color:var(--ink);font-weight:700;font-size:1rem">🟢 30–90 Days</p>
+  <div class="checklist" id="cl-later">
+    <label><li><input type="checkbox" data-k="tpms"><span class="task"><b>Replace 4 TPMS sensors</b><small>315 MHz Pacific Industrial — non-serviceable lithium cells, 7–10 yr lifespan, all four exhausted. Register the new hex IDs via Techstream.</small></span><span class="prio p-later">30–90d</span><span class="cost">$60–200</span></li></label>
+    <label><li><input type="checkbox" data-k="key"><span class="task"><b>Buy a second proximity key fob</b><small>Only one fob exists. A single point of failure — losing it leaves you stranded and costs $250–350 on a rush.</small></span><span class="prio p-later">30–90d</span><span class="cost">$250–350</span></li></label>
+    <label><li><input type="checkbox" data-k="tires"><span class="task"><b>Replace the used tires</b><small>Unknown age and history. Date-code them; anything 6+ years old goes regardless of tread.</small></span><span class="prio p-later">30–90d</span><span class="cost">$400–700</span></li></label>
+    <label><li><input type="checkbox" data-k="relog"><span class="task"><b>Re-run Dr. Prius telemetry after the 12V swap</b><small>Fresh baseline once low-voltage noise is removed. Re-check Block 3/7/8/11.</small></span><span class="prio p-later">30–90d</span><span class="cost">Free</span></li></label>
+    <label><li><input type="checkbox" data-k="hvbat"><span class="task"><b>Hybrid battery — mobile reconditioned replacement</b><small>Budget reserve. Only do this after the brake test and oil consumption are under control.</small></span><span class="prio p-later">3–12 mo</span><span class="cost">$1,600–2,000</span></li></label>
+    <label><li><input type="checkbox" data-k="paint"><span class="task"><b>Front-end cosmetics &amp; re-secure loose panels</b><small>Peeling bumper cover (no adhesion promoter), blue-tape quarter brackets, crowned hood. Cosmetic, but re-tape properly.</small></span><span class="prio p-later">When</span><span class="cost">Varies</span></li></label>
+  </div>
+</section>
+
+<section id="cost">
+  <h2><span class="num">7</span>Cost Ledger</h2>
+  <p class="sub">Purchase price plus looming liabilities.</p>
+  <div class="card tight">
+    <table>
+      <thead><tr><th>Item</th><th>DIY</th><th>Shop</th><th>Priority</th></tr></thead>
+      <tbody>
+        <tr><td>12V AGM auxiliary battery</td><td>$180–220</td><td>$280–350</td><td><span class="tag t-bad">Week 1</span></td></tr>
+        <tr><td>P CON MAIN fuse reset</td><td>$0</td><td>$150–300</td><td><span class="tag t-bad">Week 1</span></td></tr>
+        <tr><td>Occupant cal (B1650)</td><td>$0 + $35 cable</td><td>$120–180</td><td><span class="tag t-bad">Week 1</span></td></tr>
+        <tr><td>Brake actuator <em>(only if leaking)</em></td><td>$600–800</td><td>$1,800–2,400</td><td><span class="tag t-warn">Contingent</span></td></tr>
+        <tr><td>Hybrid battery modules / reman</td><td>$180–250</td><td>$1,200–1,600</td><td><span class="tag t-info">3–12 mo</span></td></tr>
+        <tr><td>TPMS sensors ×4</td><td>$60 + mount</td><td>$250–320</td><td><span class="tag t-info">30–90 d</span></td></tr>
+        <tr><td>Second key fob</td><td>—</td><td>$250–350</td><td><span class="tag t-info">30–90 d</span></td></tr>
+        <tr class="total-row"><td>Basis: purchase + projected liabilities</td><td colspan="2">$2,300 + ~$2,350</td><td>≈ $4,650</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note warn">
+    <b>The brake actuator is not in the $2,350 reserve</b>
+    It's a contingency. If the pump cycles every 5–15 seconds, add $600–4,200. That's why the leak-down test comes before everything else.
+  </div>
+</section>
+
+<section id="links">
+  <h2><span class="num">8</span>Reference Links</h2>
+  <p class="sub">Everything you'll need, one tap away.</p>
+  <div class="links">
+    <a class="lnk" href="https://www.nhtsa.gov/recalls" target="_blank" rel="noopener"><b>NHTSA Recall Lookup <span class="arrow">↗</span></b><small>Re-verify open campaigns by VIN at any time. Free, updated continuously.</small></a>
+    <a class="lnk" href="https://www.lexusdrivers.com/" target="_blank" rel="noopener"><b>Lexus Drivers <span class="arrow">↗</span></b><small>Factory service history portal. Log in with the VIN to pull dealer repair records.</small></a>
+    <a class="lnk" href="https://www.carfax.com/" target="_blank" rel="noopener"><b>CARFAX <span class="arrow">↗</span></b><small>Live odometer tracking, ownership timeline, auction records.</small></a>
+    <a class="lnk" href="https://priusapp.com/" target="_blank" rel="noopener"><b>Dr. Prius App <span class="arrow">↗</span></b><small>Block-level NiMH telemetry. Pair with an OBDLink MX+ or similar BLE adapter.</small></a>
+    <a class="lnk" href="https://www.obdlink.com/" target="_blank" rel="noopener"><b>OBDLink MX+ <span class="arrow">↗</span></b><small>The adapter used for the battery capture and full-network DTC scan.</small></a>
+    <a class="lnk" href="https://www.dol.wa.gov/vehiclesandtags/buyingandsellingvehicles/transfertitle.html" target="_blank" rel="noopener"><b>WA DOL — Title Transfer <span class="arrow">↗</span></b><small>15-day deadline, forms, and King County subagency locations.</small></a>
+    <a class="lnk" href="https://www.dol.wa.gov/forms/420065.pdf" target="_blank" rel="noopener"><b>Bill of Sale (TD-420-065) <span class="arrow">↗</span></b><small>Fill in the condition note so you aren't taxed on book value.</small></a>
+    <a class="lnk" href="https://www.dol.wa.gov/vehiclesandtags/buyingandsellingvehicles/permits.html" target="_blank" rel="noopener"><b>WA 3-Day Trip Permit <span class="arrow">↗</span></b><small>$36. Buy online, drive home legally once the seller's plates come off.</small></a>
+    <a class="lnk" href="https://www.clublexus.com/forums/hs-250h/" target="_blank" rel="noopener"><b>ClubLexus HS 250h Forum <span class="arrow">↗</span></b><small>The deepest owner knowledge base for this platform. Search before asking.</small></a>
+    <a class="lnk" href="https://www.nhtsa.gov/equipment/car-seats-and-booster-seats" target="_blank" rel="noopener"><b>NHTSA Vehicle recalls API <span class="arrow">↗</span></b><small>Programmatic source for the campaign data on this page.</small></a>
+  </div>
+</section>
+
+<section id="legal">
+  <h2><span class="num">9</span>Washington Legal Checklist</h2>
+  <p class="sub">Hard deadlines — miss the first one and it gets expensive.</p>
+  <div class="card">
+    <ul class="clean">
+      <li><strong>Verify the physical title.</strong> Sabyrzhan's legal name must be printed on the front. If it's signed over from his brother or a third party, that's title jumping and it becomes your problem.</li>
+      <li><strong>Release of Interest.</strong> He must sign <em>and</em> print his name on that line.</li>
+      <li><strong>Bill of Sale (TD-420-065).</strong> Both parties sign. Note the condition: <em>"rebuilt title, damaged hood, peeling paint"</em> so the Dept. of Revenue doesn't tax you at full book value.</li>
+      <li><strong>Plates.</strong> Seller removes theirs under RCW 46.16A.200. Buy a <strong>$36 3-Day Trip Permit</strong> to drive home.</li>
+      <li><strong>15 calendar days</strong> to transfer at a King County subagency. Late fees run $50–125.</li>
+    </ul>
+  </div>
+  <div class="note bad">
+    <b>⚠ Rebuilt title — real-world consequences</b>
+    Expect higher insurance premiums and possible refusal from some carriers, sharply lower resale value, and some buyers who won't touch it. Also: the WA State Patrol rebuilt inspection (RCW 46.12.560) only verifies VIN stamps and parts receipts to prevent theft — it does <strong>not</strong> test frame alignment, crashworthiness, airbag function, or brake hydraulics. A passed inspection means very little mechanically.
+  </div>
+</section>
+
+<div class="foot">
+  <p><strong>2010 Lexus HS 250h</strong> · VIN JTHBB1BA2A2016171 · Owner dossier</p>
+  <p>Recall data verified against the NHTSA primary recall API. Diagnostics from Dr. Prius / OBDLink MX+ telemetry and Lexus of Tacoma dealer records.</p>
+  <p style="margin-top:12px">
+    <button class="btn ghost" onclick="window.print()">Print / Save as PDF</button>
+    <button class="btn ghost" id="resetBtn" style="margin-left:8px">Reset Checkboxes</button>
+  </p>
+</div>
+
+</div>
+
+<script>
+(function(){
+  var KEY='hs250h-dossier-v1';
+  var boxes=document.querySelectorAll('.checklist input[type=checkbox]');
+  var state={};
+  try{state=JSON.parse(localStorage.getItem(KEY))||{}}catch(e){state={}}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+  boxes.forEach(function(b){
+    var k=b.getAttribute('data-k');
+    if(state[k]){b.checked=true;b.closest('li').classList.add('done')}
+    b.addEventListener('change',function(){
+      state[k]=b.checked;save();
+      b.closest('li').classList.toggle('done',b.checked);
+    });
+  });
+  var rb=document.getElementById('resetBtn');
+  if(rb)rb.addEventListener('click',function(){
+    if(!confirm('Clear all saved checkboxes?'))return;
+    state={};save();
+    boxes.forEach(function(b){b.checked=false;b.closest('li').classList.remove('done')});
+  });
+})();
+</script>
+</body>
+</html>
